@@ -1,0 +1,21 @@
+:root {
+  --bg-color: #121214;
+  --color-primary: #8257e5;
+  --text-color: #a8a8b3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body, input, button, textarea, select {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
